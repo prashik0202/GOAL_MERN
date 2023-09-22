@@ -5,7 +5,7 @@ import GoalForm from '../components/GoalForm'
 import GoalItem from '../components/GoalItem'
 import Spinner from '../components/Spinner'
 import { getGoals, reset } from '../features/goals/goalSlice'
-import {Container , Grid } from '@mui/material';
+import {Grid } from '@mui/material';
 
 function Dashboard() {
   const navigate = useNavigate()
